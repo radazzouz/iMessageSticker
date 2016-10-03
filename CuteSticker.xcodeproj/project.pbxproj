@@ -106,13 +106,13 @@
 				TargetAttributes = {
 					F4A64E2A1D169027004C9CFF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = YZP52RND5S;
+						DevelopmentTeam = L4FET847JL;
 						DevelopmentTeamName = "Leung Wai Ng";
 						ProvisioningStyle = Automatic;
 					};
 					F4A64E2E1D169027004C9CFF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = YZP52RND5S;
+						DevelopmentTeam = L4FET847JL;
 						DevelopmentTeamName = "Leung Wai Ng";
 						ProvisioningStyle = Automatic;
 					};
@@ -183,7 +183,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rad Azzouz (MSYNBAVR29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -228,7 +228,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rad Azzouz (MSYNBAVR29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -252,7 +252,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rad Azzouz (MSYNBAVR29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.CuteSticker.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,7 +265,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rad Azzouz (MSYNBAVR29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.CuteSticker.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,9 +278,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rad Azzouz (MSYNBAVR29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = CuteSticker/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.CuteSticker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.CuteSticker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,9 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rad Azzouz (MSYNBAVR29)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = CuteSticker/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.CuteSticker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.CuteSticker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
