@@ -37,7 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F4A64E2B1D169027004C9CFF /* CuteSticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuteSticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A64E2B1D169027004C9CFF /* StickerPack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerPack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A64E2F1D169027004C9CFF /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A64E331D169027004C9CFF /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +54,7 @@
 		F4A64E2C1D169027004C9CFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4A64E2B1D169027004C9CFF /* CuteSticker.app */,
+				F4A64E2B1D169027004C9CFF /* StickerPack.app */,
 				F4A64E2F1D169027004C9CFF /* StickerPackExtension.appex */,
 			);
 			name = Products;
@@ -63,9 +63,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4A64E2A1D169027004C9CFF /* CuteSticker */ = {
+		F4A64E2A1D169027004C9CFF /* StickerPack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4A64E3C1D169027004C9CFF /* Build configuration list for PBXNativeTarget "CuteSticker" */;
+			buildConfigurationList = F4A64E3C1D169027004C9CFF /* Build configuration list for PBXNativeTarget "StickerPack" */;
 			buildPhases = (
 				F4A64E291D169027004C9CFF /* Resources */,
 				F4A64E3B1D169027004C9CFF /* Embed App Extensions */,
@@ -75,9 +75,9 @@
 			dependencies = (
 				F4A64E321D169027004C9CFF /* PBXTargetDependency */,
 			);
-			name = CuteSticker;
+			name = StickerPack;
 			productName = CuteSticker;
-			productReference = F4A64E2B1D169027004C9CFF /* CuteSticker.app */;
+			productReference = F4A64E2B1D169027004C9CFF /* StickerPack.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
 		F4A64E2E1D169027004C9CFF /* StickerPackExtension */ = {
@@ -106,19 +106,19 @@
 				TargetAttributes = {
 					F4A64E2A1D169027004C9CFF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = YZP52RND5S;
+						DevelopmentTeam = L4FET847JL;
 						DevelopmentTeamName = "Leung Wai Ng";
 						ProvisioningStyle = Automatic;
 					};
 					F4A64E2E1D169027004C9CFF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = YZP52RND5S;
+						DevelopmentTeam = L4FET847JL;
 						DevelopmentTeamName = "Leung Wai Ng";
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F4A64E281D169027004C9CFF /* Build configuration list for PBXProject "CuteSticker" */;
+			buildConfigurationList = F4A64E281D169027004C9CFF /* Build configuration list for PBXProject "StickerPack" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4A64E2A1D169027004C9CFF /* CuteSticker */,
+				F4A64E2A1D169027004C9CFF /* StickerPack */,
 				F4A64E2E1D169027004C9CFF /* StickerPackExtension */,
 			);
 		};
@@ -252,8 +252,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.CuteSticker.StickerPackExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.StickerPack.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -263,8 +265,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L4FET847JL;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.CuteSticker.StickerPackExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.StickerPack.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -274,8 +278,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				INFOPLIST_FILE = CuteSticker/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.CuteSticker;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = StickerPack/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.StickerPack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,8 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				INFOPLIST_FILE = CuteSticker/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.CuteSticker;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = StickerPack/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.StickerPack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4A64E281D169027004C9CFF /* Build configuration list for PBXProject "CuteSticker" */ = {
+		F4A64E281D169027004C9CFF /* Build configuration list for PBXProject "StickerPack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4A64E361D169027004C9CFF /* Debug */,
@@ -311,14 +319,16 @@
 				F4A64E3A1D169027004C9CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F4A64E3C1D169027004C9CFF /* Build configuration list for PBXNativeTarget "CuteSticker" */ = {
+		F4A64E3C1D169027004C9CFF /* Build configuration list for PBXNativeTarget "StickerPack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4A64E3D1D169027004C9CFF /* Debug */,
 				F4A64E3E1D169027004C9CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
