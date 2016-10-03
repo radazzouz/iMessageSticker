@@ -18,7 +18,7 @@
                BlueprintIdentifier = "F4A64E2E1D169027004C9CFF"
                BuildableName = "StickerPackExtension.appex"
                BlueprintName = "StickerPackExtension"
-               ReferencedContainer = "container:CuteSticker.xcodeproj">
+               ReferencedContainer = "container:StickerPack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4A64E2A1D169027004C9CFF"
-               BuildableName = "CuteSticker.app"
-               BlueprintName = "CuteSticker"
-               ReferencedContainer = "container:CuteSticker.xcodeproj">
+               BuildableName = "StickerPack.app"
+               BlueprintName = "StickerPack"
+               ReferencedContainer = "container:StickerPack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,7 +50,7 @@
             BlueprintIdentifier = "F4A64E2E1D169027004C9CFF"
             BuildableName = "StickerPackExtension.appex"
             BlueprintName = "StickerPackExtension"
-            ReferencedContainer = "container:CuteSticker.xcodeproj">
+            ReferencedContainer = "container:StickerPack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4A64E2A1D169027004C9CFF"
-            BuildableName = "CuteSticker.app"
-            BlueprintName = "CuteSticker"
-            ReferencedContainer = "container:CuteSticker.xcodeproj">
+            BuildableName = "StickerPack.app"
+            BlueprintName = "StickerPack"
+            ReferencedContainer = "container:StickerPack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -92,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4A64E2A1D169027004C9CFF"
-            BuildableName = "CuteSticker.app"
-            BlueprintName = "CuteSticker"
-            ReferencedContainer = "container:CuteSticker.xcodeproj">
+            BuildableName = "StickerPack.app"
+            BlueprintName = "StickerPack"
+            ReferencedContainer = "container:StickerPack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CuteSticker.xcodeproj">
+      location = "self:/Volumes/buddybuild/git/iMessageSticker/StickerPack.xcodeproj">
    </FileRef>
 </Workspace>
